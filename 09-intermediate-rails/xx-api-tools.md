@@ -47,6 +47,18 @@ Take a look at the Body, Cookies & Headers returned.  Postman sends http request
 
 In the Header section you can see the Content-Type `Content-Type →text/html; charset=ISO-8859-1` which tells the client which type of information is being returned.  
 
+#### Reading from a JSON API
+
+You can also use the iTunes API to search for content on Apple's platform.  
+
+In the URL bar enter:  `https://itunes.apple.com/search?term=` followed by anything you want to search by.  If your term has spaces or other characters not allowed in a URL, you can highlight the term and right click to make it URL friendly.  Select `Encode URI Component`  
+
+![Encode URI Component](images/postman11.png)
+
+So `https://itunes.apple.com/search?term=Red Hot Chili Peppers` becomes `https://itunes.apple.com/search?term=Red%20Hot%20Chili%20Peppers`
+
+Examine the results.  Can you find links to album covers?  What about music samples?
+
 ##### Github API
 
 Github has a robust series of [APIs](https://developer.github.com/v3/) to enable users to get a rich variety of information and make changes to repositories, and more.  
@@ -58,7 +70,7 @@ We will set up a sample request to see the repositories of the Ada-c6 organizati
 	- The Authorization Callback URL:  [https://www.getpostman.com/oauth2/callback](https://www.getpostman.com/oauth2/callback)
 	- By doing this we will create an oAuth token for Postman to log into Github without using our username/password.  
 
-![Github Authentication Screen](images/postman0.png)  
+  ![Github Authentication Screen](images/postman0.png)  
 1.  Then in Postman go to Authorization (under the URL line) and select oAuth 2.0.
 ![Postman Authorization](images/postman5.png) 
  
