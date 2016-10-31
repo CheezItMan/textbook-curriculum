@@ -8,7 +8,7 @@
 
 ## Installing Foundation-Rails
 
-To install the Foundation-Rails gem add the following lines to your Gemfile.
+First we will install the Foundation Gem and then configure it.  **Please remember to restart your rails server after installing Foundation.**  To install the Foundation-Rails gem add the following lines to your Gemfile.
 
 ```ruby
 # Foundation Rails Gem
@@ -42,6 +42,8 @@ The installer adds the following files to your app/assets folder.
 
 ![foundation files](imgs/foundationfiles.png)
 
+
+### Then make sure to restart your rails server, if it's running. 
 
 ## A Little Configuration
 
