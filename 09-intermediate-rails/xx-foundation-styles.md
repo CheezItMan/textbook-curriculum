@@ -40,7 +40,7 @@ Overwrite /Users/Chris/ada/StudentWork/Foundation/foundation_example/app/views/l
 
 The installer adds the following files to your app/assets folder.  
 
-![foundation files](imgs/foundationfiles.png)
+![foundation files](images/foundationfiles.png)
 
 
 ### Then make sure to restart your rails server, if it's running. 
