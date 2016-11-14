@@ -145,7 +145,7 @@ var arr = [1, 2, 3, 4];
 arr.length;  // 4 - access the length property
              // Note this *cannot* be accessed like a method with parenthesis
 arr[0];      // 1
-arr.pop()    // 4 - call the pop() function
+arr.pop();    // 4 - call the pop() function
              // Note this method *cannot* be used without the parenthesis
 arr;         // [1, 2, 3]; pop() mutates the array
 ```
